@@ -138,12 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="directX9_unD3D.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="winAPI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="directX9_unD3D.h" />
     <ClInclude Include="easing.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="winAPI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
